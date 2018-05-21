@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+}
+.bgimage{
+	background-image: url(image/high.jpg);
+	background-position: center;
+	background-size: cover;
+	font-color: #ffffff;
+	padding-left: 100px;	
+}
+#logo {
+	color: #ffffff;
+	font: bold 5em;
+}
+#menu{
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#menu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li{
+	display: block;
+	float: left;
+	height: 42px;
+}
+
+#menu a{
+	display: block;
+	width: 90px;
+	height: 46px;
+	padding: 20px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: -1px;
+	font:  1.2em sans-serif;
+	color: #ffffff;
+}
+
+#menu a: hover{
+	color: yellow;
+}
+#text strong{
+	color: #ffffff;
+	padding-right: 120px;
+	font: 20px Arial black;
+}
+#text p{
+	color: #ffffff;
+	padding-right: 130px;
+	font: eras demi itc;
+}
+
+#click{
+	padding-top: 70px;
+
+}
+#click button{
+	margin-left: 10px;
+	background-color: yellow;
+	border: 1px transparent;
+}
+
+.welcome h3{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: 15px;
+}
+.welcome p{
+	padding: 0 70px 10px 70px;
+	display: block;
+
+}
+img{
+	margin: auto;
+	display: block;
+
+}
+.row{
+	padding-top: -1px;
+	padding-bottom: 40px;
+}
+.glyphicon{
+	border-radius: 40px;
+	padding: 10px;
+	font-size: 15px;
+	background-color: #800080;
+	color: #ffffff;
+}
+.glyphicon:hover{
+	color: #ffffff;
+	opacity: 0.7;
+	text-decoration: none;
+}
+.btn{
+	background-color: yellow;
+	border: 1px transparent;
+	margin-bottom: 50px;
+}
+#contain button{
+	background-color: yellow;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+.row footer{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	background-color: #303030;
+}
+.row footer h4{
+	letter-spacing: 2px;
+	font: bold 0.8em;
+	color: #fff;
+	text-align: center;
+	padding-top: 4px;
+}
+
+
+
+
